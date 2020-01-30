@@ -146,6 +146,9 @@
   .sb-pdf-container .download-pdf-image img {
   max-width: 70%;
   }
+  .pdf-name {
+    line-height: 30px;
+  }
   .sb-pdf-container .pdf-name {
   overflow: hidden;
   white-space: nowrap;

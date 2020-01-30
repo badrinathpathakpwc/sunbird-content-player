@@ -161,9 +161,9 @@ org.ekstep.contentrenderer.baseLauncher.extend({
         // pdfZoomOut.id = "pdf-zoomOut";
         
 
-        var pdfDownloadContainer = document.createElement("div");
-        pdfDownloadContainer.id = "pdf-download-container";
-        pdfDownloadContainer.className = "download-pdf-image";
+        // var pdfDownloadContainer = document.createElement("div");
+        // pdfDownloadContainer.id = "pdf-download-container";
+        // pdfDownloadContainer.className = "download-pdf-image";
 
         var pdfTitleContainer = document.createElement("div");
         pdfTitleContainer.textContent = content.name;
@@ -173,10 +173,10 @@ org.ekstep.contentrenderer.baseLauncher.extend({
         pdfSearchContainer.id = "pdf-search-container";
 
 
-        if (!window.cordova){
-            pdfMetaData.appendChild(pdfDownloadContainer);
-            this.addDownloadButton(path, pdfDownloadContainer);
-        }
+        // if (!window.cordova){
+        //     pdfMetaData.appendChild(pdfDownloadContainer);
+        //     this.addDownloadButton(path, pdfDownloadContainer);
+        // }
 
 
         var pageCountContainer = document.createElement("div");
