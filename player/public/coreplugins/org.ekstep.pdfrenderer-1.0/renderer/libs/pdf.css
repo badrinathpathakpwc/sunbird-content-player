@@ -228,9 +228,11 @@
   }
   .sb-btn-arrows.prev {
   right: 9%;
+  display:none;
   }
   .sb-btn-arrows.next {
   right: 1.25%;
+  display:none;
   }
   .sb-btn-arrows:hover, .sb-btn-arrows.active {
   background: #005391;
