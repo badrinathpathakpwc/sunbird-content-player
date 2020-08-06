@@ -78,7 +78,7 @@ org.ekstep.service.web = new (org.ekstep.service.mainService.extend({
 					result.list = resp
 					resolve(resp.result.content)
 				} else {
-					console.info("err : ", resp.error)
+					console.info("err : in resp.error")
 				}
 			})
 		})
@@ -112,7 +112,7 @@ org.ekstep.service.web = new (org.ekstep.service.mainService.extend({
 					map.path = "stories/" + metadata.code
 					resolve(map)
 				} else {
-					console.info("err : ", resp.error)
+					console.info("err in resp.error")
 				}
 			})
 		})
@@ -127,7 +127,7 @@ org.ekstep.service.web = new (org.ekstep.service.mainService.extend({
 					result.list = resp
 					resolve(resp.result)
 				} else {
-					console.info("err : ", resp.error)
+					console.info("err in resp.error")
 				}
 			})
 		})
@@ -142,7 +142,7 @@ org.ekstep.service.web = new (org.ekstep.service.mainService.extend({
 					result.data = resp
 					resolve(resp.result)
 				} else {
-					console.info("err : ", resp.error)
+					console.info("err : in resp.error")
 				}
 			})
 		})
