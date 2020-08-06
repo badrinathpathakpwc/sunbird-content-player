@@ -24,7 +24,7 @@ org.ekstep.service.extcontent = new (org.ekstep.service.mainService.extend({
                 if (!resp.error) {
                     resolve(resp);
                 } else {
-                    console.info("err getExtUrlMeta() : ", resp.error)
+                    console.info("err getExtUrlMeta() : ")
                 }
             });
         });
