@@ -898,7 +898,7 @@ var TelemetrySyncManager = {
                 if (error.status == 403) {
                     console.error("Authentication error: ", error);
                 } else {
-                    console.log("Error while Telemetry sync to server: ", error);
+                    console.log("Error while Telemetry sync to server: ");
                 }
             });
         }
