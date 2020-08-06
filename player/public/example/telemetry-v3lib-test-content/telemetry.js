@@ -893,10 +893,10 @@ var TelemetrySyncManager = {
                 data: JSON.stringify(telemetryObj)
             }).done(function(resp) {
                 instance._teleData = [];
-                console.log("Telemetry API success", resp);
+                console.log("Telemetry API success");
             }).fail(function(error, textStatus, errorThrown) {
                 if (error.status == 403) {
-                    console.error("Authentication error: ", error);
+                    console.error("Authentication error: ");
                 } else {
                     console.log("Error while Telemetry sync to server: ");
                 }
