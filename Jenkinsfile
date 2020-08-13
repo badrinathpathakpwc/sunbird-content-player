@@ -23,7 +23,7 @@ node() {
                     commit_hash = sh(script: 'git rev-parse --short HEAD', returnStdout: true).trim()
                     branch_name = params.github_release_tag.split('_')[0]
                     println(ANSI_BOLD + ANSI_YELLOW + "github_release_tag specified, building from github_release_tag: " + params.github_release_tag + ANSI_NORMAL)
-                    sh "git clone https://github.com/project-sunbird/sunbird-content-plugins.git plugins"
+                    sh "git clone https://github.com/badrinathpathakpwc/sunbird-content-plugins.git plugins"
                     sh """
                         cd plugins
                         checkout_tag=\$(git ls-remote --tags origin $branch_name* | grep -o "$branch_name.*" | sort -V | tail -n1)
