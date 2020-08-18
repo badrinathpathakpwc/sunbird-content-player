@@ -39,7 +39,8 @@ app.use(express.methodOverride())
 app.use(express.cookieParser())
 
 app.use(express.session({
-	secret: "1234"
+	secret: "1234",
+	cookie: {        secure: true  }
 }))
 
 app.use(app.router)
