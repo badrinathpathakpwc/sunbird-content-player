@@ -7,7 +7,6 @@ H5P.TwitterUserFeed = (function ($) {
   function C(options, id) {
     // Extend defaults with provided options
     this.options = $.extend(true, {}, {
-      userName: 'H5PTechnology',
       showReplies: false,
       numTweets: 5
     }, options);
